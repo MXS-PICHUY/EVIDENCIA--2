@@ -1,0 +1,75 @@
+#HOLA ESTA ES UNA EVIDENCIA DE PROGRAMACION THONNY COMPUESTA POR VARIOS EJERCICIOS QUE HICE
+# EJERCICIO 1
+variable1 = 200
+variable2 = 100
+resultado = ( variable1 + variable2 )
+ 
+print(resultado)
+
+# EJERCICIO 2
+producto = 100
+iva = (producto * 0.20)
+costo_total =(producto + iva)
+print("el resultado es :" , costo_total)
+
+#EJERCICIO 3
+
+numero1 = input("tu primer numero es :")
+numero2 = input("tu segundo numero es :")
+a = numero1
+b = numero2
+
+if a>b :
+    print (" es mayor :" , a )
+else:
+    print (" es mayor :" , b )
+   
+#EJERCICIO 4
+
+N = int(input("ingresa un numero del 0 al 10 :  " ))
+if   (N>=1 and N<=10):
+    print("Esta entre 1 y 10 :  " , N)
+else:
+    print("error 404")
+    
+# EJERCICIO 5
+
+total = 1
+while True :
+    total+=0
+    if total==100
+    break
+
+print(total)
+
+# EJERCICIO 6
+
+def validar (email) :
+    buscar="@"
+    emailValido=False
+    for a in email :
+        if a==buscar:
+           return True
+    return False
+correo=input("por favor ingresar correo electronico :  ")
+if validar(correo):
+    print("perfecto tu correo es correcto")
+else:
+    print("error 404..... ingresar de nuevo su correo ")
+
+# EJERCICIO 7
+
+class GestionNumerica():
+    operador1 = 0
+    operador2 = 0
+    def Sumar(self):
+        return self.operador1 + self.operador2 
+    def Multiplicar(self):
+        return self.operador1 * self.operador2 
+
+mi_objeto = GestionNumerica()
+ 
+mi_objeto.operador1 = ("20")
+mi_objeto.operador2 = ("30")
+print(mi_objeto.operador1)
+print(mi_objeto.operador2)
